@@ -1,0 +1,45 @@
+body{
+    background-color: #5F264A;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+input{
+    background-color: white;
+    border-style: solid;
+    border-color: #643a6bce;
+    border-radius: 20%;
+    border-width: 10px;
+    font-size: 4rem;
+    padding: 20px 40px;
+    margin: 3rem 5px;
+    color: #FF6969;
+    transition: .1s;
+
+}
+.piano:active{
+    background-color: black;
+}
+footer{
+    margin-top: 13rem;
+}
+p{
+    font-size: 1.3rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+span{
+    font-family: cursive;
+    font-size: 2rem;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+    color: black;
+}
